@@ -1,27 +1,14 @@
-# Virtual environment
-venv/
-flask_learnin/
-*/venv/
-*/.venv/
-
-# Python cache files
+# Python
 _pycache_/
-*.py[cod]
+*.pyc
+*.pyo
 
-# IDE/config folders
+# Environments
+venv/
+flask_learning/
+
+# VS Code settings
 .vscode/
-.idea/
 
-# OS-specific files
-.DS_Store
-Thumbs.db
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Jupyter Notebook checkpoints (if you're using Jupyter)
-.ipynb_checkpoints/
-
-# Env files (if using .env for secrets/config)
+# Others
 .env
